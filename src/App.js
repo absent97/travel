@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/products" element={<Products />} />
-        <Route exact path="/sign-up" element={<SignUp />} />
-        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/travel" element={<Home />} />
+        <Route exact path="/travel/products" element={<Products />} />
+        <Route exact path="/travel/sign-up" element={<SignUp />} />
+        <Route exact path="/travel/services" element={<Services />} />
       </Routes>
     </BrowserRouter>
   );

@@ -41,22 +41,22 @@ export const Navbar = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/travel" className="nav-links" onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/travel/services" className="nav-links" onClick={closeMobileMenu}>
               Services
             </Link>
           </li>{" "}
           <li className="nav-item">
-            <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/travel/products" className="nav-links" onClick={closeMobileMenu}>
               Products
             </Link>
           </li>{" "}
           <li className="nav-item">
-            <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/travel/sign-up" className="nav-links" onClick={closeMobileMenu}>
               Sign Up
             </Link>
           </li>
